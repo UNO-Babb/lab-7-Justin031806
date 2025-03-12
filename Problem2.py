@@ -1,10 +1,16 @@
-#Problem2.py
-#Project Euler problem 2
+#Problem7.py
+#Project Euler problem 7
 
 from NumberTests import isEven
-from NumberTests import fibonacciSequence
+
 
 def main():
+  primecount=0
+  num=1
+  while primecount<10001:
+    num=num+1
+    if isPrime(num):
+      primeCount
   nums = fibonacciSequence(4000001)
   print (nums)
   total = 0
